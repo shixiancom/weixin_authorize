@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'weixin_authorize/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "weixin_authorize"
+  spec.name          = "shixian-weixin_authorize"
   spec.version       = WeixinAuthorize::VERSION
   spec.authors       = ["lanrion"]
   spec.email         = ["huaitao-deng@foxmail.com"]
   spec.description   = %q{weixin api authorize access_token}
   spec.summary       = %q{weixin api authorize access_token}
-  spec.homepage      = "https://github.com/lanrion/weixin_authorize"
+  spec.homepage      = "https://github.com/shixiancom/weixin_authorize"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
